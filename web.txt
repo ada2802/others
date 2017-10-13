@@ -1,0 +1,95 @@
+
+*************************************
+*http://csis.pace.edu/~wolf/HTML/htmlnotepad.htm*
+*https://www.w3.org/Style/Examples/011/firstcss.en.html#HTM*
+
+The <h> tags govern text size (h stands for heading).
+	H1 creates the largest text and H7 the smallest.
+	<h1> The Best Web Sites for ...</h1>
+
+The <img src> tag is used for including images.
+	<img src="picture.gif" align = left width = 100>
+
+The <p> tag creates a new paragraph.
+	<P><IMG SRC="nytlogo12.gif" HEIGHT=54 WIDTH=350>
+
+The <a> tag indicates a link to another part of the same document or to another document (a is for anchor).
+
+	<a href = "#details"> Go to Details </a>
+	<a href="http://www.nytimes.com"> Online New York Times </a> 
+	Send me mail at <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>
+*************************************
+
+##The standard format for an HTML file consists of the head and the body
+<!DOCTYPE html>
+<html> 
+    <head> <meta charset="UTF-8">
+	   
+	   <title>My Bookshelf</title> 
+
+	   <style type="text/css">
+  	   	body {
+			padding-left: 11em;
+    			font-family: Georgia, "Times New Roman", Times, serif;
+			color: purple;
+     			background-color: #d8da3d }
+	   	ul.navbar {
+    			position: absolute;
+    			top: 2em;
+    			left: 1em;
+    			width: 9em 
+			background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);}
+	   	h1 {
+    			font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+		ul.navbar li {
+    			background: lightgrey;
+   			margin: 0.5em 0;
+    			padding: 0.3em; }
+  		ul.navbar a {
+    			text-decoration: none }
+  		a:link {
+    			color: blue }
+  		a:visited {
+    			color: purple }
+		address {
+    			margin-top: 1em;
+    			padding-top: 1em;
+    			border-top: thin dotted }
+ 	   </style>
+        
+    </head> 
+    <body>
+ 
+	<!-- Site navigation menu -->
+	<ul class="navbar">
+  	  	<li><a href="#book1">boo1</a>
+  		<li><a href="#book2">book2</a>
+  		<li><a href="#book3">book3</a>
+	</ul>
+
+	<!-- Main content -->
+	<h1>My Faviory Books</h1>
+
+	<p>Welcome to my favory bookshelf!
+
+	<P> <B>boo1</B>
+	<img src="/images/contact.svg" height="80" width="80" />
+
+	<P> <B>boo2</B>
+	<img src="/images/contact.svg" height="80" width="80" />
+
+	<P> <B>boo3</B>
+	<img src="/images/contact.svg" height="80" width="80" />
+
+	<p>There should be more here, but I don't know what yet.
+
+	<!-- Sign and date the page, it's only polite! -->
+	<address>Made October 13 2017 by Ada<br> 
+		Send me mail at <a href="mailto:ada.zhu.c@gmail.com">ada.zhu.c@gmail.com</a>
+	</address>
+
+    </body> 
+</html>
+
+***************************************************
+
