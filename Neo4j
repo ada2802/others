@@ -1,1 +1,13 @@
 https://www.youtube.com/watch?v=bdQ90y9Pefo
+neo4j.com/developer --> the developer code
+intro to Neo4j   https://www.youtube.com/watch?v=Yzbk6VaavoM
+queue commands:  https://neo4j.com/docs/cypher-refcard/current/ 
+******************************
+## create a node with multipul lables
+Create (me: Person {none: "will"})
+MATCH (me: Person)
+SET me:Human
+RETURN me
+*******************************
+## unique node property constraints
+
