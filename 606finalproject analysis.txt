@@ -14,6 +14,8 @@ http://rpubs.com/ada2802/329944  (Exercise 10)
 
 
 3. use simulation in randome select 50 sampleing then see the results...
+https://rstudio-pubs-static.s3.amazonaws.com/169791_2924e5aa237549ae8a9af2ddabfebaa5.html
+
 
 naive-bayes-classification 
 https://rstudio-pubs-static.s3.amazonaws.com/169791_2924e5aa237549ae8a9af2ddabfebaa5.html
