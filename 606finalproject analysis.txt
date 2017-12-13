@@ -1,0 +1,27 @@
+
+1.data clearing
+
+subDf <- data.frame(df$classes,df$odor,df$spore_print_color,df$stalk_surface_below_ring,df$stalk_color_above_ring,df$habitat,df$cap_color,df$population,df$cap_shape,df$cap_surface,df$bruises,df$gill_attachment,df$gill_spacing,df$gill_size,df$gill_color,df$stalk_shape,df$stalk_root,df$stalk_surface_above_ring,df$stalk_color_below_ring,df$veil_type,df$veil_color,df$ring_number,df$ring_type)
+levels(subDf$df.classes) [levels(subDf$df.classes)=="p"]  <- "poisonous"
+levels(subDf$df.classes) [levels(subDf$df.classes)=="e"]  <- "edible"
+
+2.for four rules to distince the "p"
+(use table1 <- structable(bruises + odor ~ class, train01) 
+https://www.kaggle.com/brenborbs/mushrooms-and-net-100-percent
+
+Inference for categorical data
+http://rpubs.com/ada2802/329944  (Exercise 10)
+
+
+3. use simulation in randome select 50 sampleing then see the results...
+
+naive-bayes-classification 
+https://rstudio-pubs-static.s3.amazonaws.com/169791_2924e5aa237549ae8a9af2ddabfebaa5.html
+
+# Nbayes vs Desition tree model: which more accuracy?
+
+
+
+
+
+
